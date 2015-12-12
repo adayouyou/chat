@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: xj Server - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/xj Server.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\Administrator\桌面\21109074-孙刚-信息与通信工程学院\Chat System\Server\xj Server.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/xj Server.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\21109074-孙刚-信息与通信工程学院\Chat System\Server\MainFrm.cpp"
+"C:\Documents and Settings\Administrator\桌面\21109074-孙刚-信息与通信工程学院\Chat System\Server\PortDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\21109074-孙刚-信息与通信工程学院\Chat System\Server\ViewDlg.cpp"
+"C:\Documents and Settings\Administrator\桌面\21109074-孙刚-信息与通信工程学院\Chat System\Server\xj Server.cpp"
+"C:\Documents and Settings\Administrator\桌面\21109074-孙刚-信息与通信工程学院\Chat System\Server\xj ServerDoc.cpp"
+"C:\Documents and Settings\Administrator\桌面\21109074-孙刚-信息与通信工程学院\Chat System\Server\xj ServerView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B6.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/xj Server.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\21109074-孙刚-信息与通信工程学院\Chat System\Server\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B7.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B8.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/xj Server.pdb" /debug /machine:I386 /out:"Debug/xj Server.exe" /pdbtype:sept 
+".\Debug\MainFrm.obj"
+".\Debug\PortDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ViewDlg.obj"
+".\Debug\xj Server.obj"
+".\Debug\xj ServerDoc.obj"
+".\Debug\xj ServerView.obj"
+".\Debug\xj Server.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+PortDlg.cpp
+ViewDlg.cpp
+xj Server.cpp
+xj ServerDoc.cpp
+xj ServerView.cpp
+C:\Documents and Settings\Administrator\桌面\21109074-孙刚-信息与通信工程学院\Chat System\Server\xj ServerView.cpp(128) : warning C4018: '==' : signed/unsigned mismatch
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+xj Server.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
